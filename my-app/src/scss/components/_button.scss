@@ -8,9 +8,11 @@
 	min-width: 100px;
 	text-align: center;
 	cursor: pointer;
-	transition: background-color $duration ease-in-out,
-		border-color $duration ease-in-out;
 	border: 1px solid transparent;
+
+	transition:
+		background-color $duration ease-in-out,
+		border-color $duration ease-in-out;
 	@include noselect();
 
 	&,
@@ -57,15 +59,14 @@
 	&--outline {
 		background-color: #fff;
 		border-color: $orange;
+
 		&,
 		span {
 			color: $orange;
 		}
 
-		svg {
-			path {
-				fill: $orange;
-			}
+		svg path {
+			fill: $orange;
 		}
 
 		&:hover {
@@ -76,24 +77,14 @@
 				color: #fff;
 			}
 
-			svg {
-				path {
-					fill: #fff;
-				}
+			svg path {
+				fill: #fff;
 			}
 		}
 
 		&:active {
 			background-color: darken($orange, 8%);
 		}
-	}
-
-	&__delimiter {
-		width: 1px;
-		height: 25px;
-		background-color: rgba(255, 255, 255, 0.25);
-		margin-left: 14px;
-		margin-right: 14px;
 	}
 
 	&--add {
@@ -106,11 +97,9 @@
 			font-size: 16px;
 		}
 
-		&:hover {
-			i {
-				background-color: #fff;
-				color: $orange;
-			}
+		&:hover i {
+			background-color: #fff;
+			color: $orange;
 		}
 
 		i {
@@ -145,5 +134,13 @@
 			font-weight: 600;
 			font-size: 16px;
 		}
+	}
+
+	&__delimiter {
+		width: 1px;
+		height: 25px;
+		background-color: rgba(255, 255, 255, 0.25);
+		margin-left: 14px;
+		margin-right: 14px;
 	}
 }
