@@ -1,0 +1,138 @@
+[
+  {
+    "id": "0",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/200/400076825bb.jpg",
+    "title": "Умный телевизор Sber coc",
+    "price": 25000,
+    "category": 3,
+    "rating": 4
+  },
+  {
+    "id": "1",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/200/400365560bb.jpg",
+    "title": "Умный телевизор Sber SDX-50U4125",
+    "price": 60000,
+    "category": 3,
+    "rating": 4
+  },
+  {
+    "id": "2",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/65/10032586bb.jpg",
+    "title": "Телевизор Samsung UE50DU7100UXRU",
+    "price": 56000,
+    "category": 3,
+    "rating": 4
+  },
+  {
+    "id": "3",
+    "imageUrl": "https://img.mvideo.ru/Pdb/small_pic/200/400453250b.jpg",
+    "title": "Компьютер БиГ! Комп Black Dragon Core ",
+    "price": 200000,
+    "category": 2,
+    "rating": 6
+  },
+  {
+    "id": "4",
+    "imageUrl": "https://img.mvideo.ru/Pdb/small_pic/200/400424938b.jpg",
+    "title": "Системный блок игровой Robotcomp ",
+    "price": 100000,
+    "category": 2,
+    "rating": 6
+  },
+  {
+    "id": "5",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/200/400454228bb.jpg",
+    "title": "Компьютер БиГ! Комп White Dragon Core i7",
+    "price": 140000,
+    "category": 2,
+    "rating": 6
+  },
+  {
+    "id": "6",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/200/30087038bb.jpg",
+    "title": "Смартфон Apple iPhone 17 Pro 256GB",
+    "price": 130000,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": "7",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/200/30087001bb.jpg",
+    "title": "Смартфон Apple iPhone 17 256GB Black",
+    "price": 92000,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": "8",
+    "imageUrl": "https://img.mvideo.ru/Pdb/small_pic/200/30071318b.jpg",
+    "title": "Apple iPhone 15 Pro Max 256GB",
+    "price": 72000,
+    "category": 1,
+    "rating": 4
+  },
+  {
+    "id": "9",
+    "imageUrl": "https://img.mvideo.ru/Pdb/small_pic/200/400015605b.jpg",
+    "title": "Пылесос с контейнером для пыли",
+    "price": 2750,
+    "category": 4,
+    "rating": 2
+  },
+  {
+    "id": "10",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/200/400311228bb.jpg",
+    "title": "Пылесос с контейнером для пыли Gorenje",
+    "price": 4000,
+    "category": 4,
+    "rating": 2
+  },
+  {
+    "id": "11",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/200/400353420bb.jpg",
+    "title": "Пылесос ручной handstick",
+    "price": 5000,
+    "category": 4,
+    "rating": 2
+  },
+  {
+    "id": "12",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/200/30069911bb.jpg",
+    "title": "Планшет Samsung Galaxy Tab",
+    "price": 10000,
+    "category": 5,
+    "rating": 8
+  },
+  {
+    "id": "13",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/200/400200248bb.jpg",
+    "title": "Планшет Xiaomi Redmi Pad ",
+    "price": 16000,
+    "category": 5,
+    "rating": 2
+  },
+  {
+    "id": "14",
+    "imageUrl": "https://img.mvideo.ru/Pdb/small_pic/200/400473027b.jpg",
+    "title": "Планшет HUAWEI MatePad",
+    "price": 20000,
+    "category": 5,
+    "rating": 2
+  },
+  {
+    "id": "15",
+    "imageUrl": "https://img.mvideo.ru/Pdb/small_pic/200/400408176b.jpg",
+    "title": "Планшет HUAWEI MatePad 11.5",
+    "price": 23000,
+    "category": 5,
+    "rating": 9
+  },
+  {
+    "id": "16",
+    "imageUrl": "https://img.mvideo.ru/Big/small_pic/200/400428795bb.jpg",
+    "title": "Планшет Digma Kids A10",
+    "price": 7000,
+    "category": 5,
+    "rating": 9
+  }
+]
