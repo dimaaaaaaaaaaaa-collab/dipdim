@@ -2,13 +2,11 @@
 
 .categories {
 	position: relative;
-
 	ul {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 10px;
 		position: relative;
-
 		li {
 			background-color: #f9f9f9;
 			padding: 13px 30px;
@@ -20,13 +18,11 @@
 			overflow: hidden;
 			z-index: 1;
 			@include noselect();
-
 			&.active {
 				background-color: #282828;
 				color: #fff;
 				box-shadow: 0 4px 15px rgba(40, 40, 40, 0.3);
 				transform: translateY(-2px);
-
 				&::after {
 					content: "";
 					position: absolute;
@@ -45,12 +41,10 @@
 					border-radius: 30px;
 				}
 			}
-
 			&:hover {
 				background-color: darken(#f9f9f9, 2%);
 				transform: translateY(-1px);
 				box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-
 				&:not(.active)::before {
 					content: "";
 					position: absolute;
@@ -65,20 +59,17 @@
 					z-index: -1;
 				}
 			}
-
 			&:active {
 				background-color: darken(#f9f9f9, 5%);
 				transform: translateY(0);
 				transition: all 0.1s ease;
 			}
-
 			transition:
 				background-color 0.3s ease,
 				transform 0.3s ease,
 				box-shadow 0.3s ease;
 		}
 	}
-
 	&::before {
 		content: "";
 		position: absolute;
@@ -91,7 +82,6 @@
 		transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 		opacity: 0;
 	}
-
 	&.scrolled::before {
 		opacity: 1;
 		animation: slideIndicator 20s linear infinite;
@@ -153,7 +143,6 @@
 @media (min-width: 768px) {
 	.categories {
 		transition: transform 0.3s ease-out;
-
 		&:hover {
 			transform: translateY(-5px);
 		}
@@ -163,11 +152,9 @@
 @media (max-width: 768px) {
 	.categories ul {
 		gap: 8px;
-
 		li {
 			padding: 10px 20px;
 			font-size: 14px;
-
 			&.active {
 				transform: scale(0.98);
 			}
